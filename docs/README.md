@@ -2,6 +2,8 @@
 
 Current operational guidance lives in `users/`, `contributors/`, and the current maintainer playbooks. Dated audits, release notes, worklogs and `maintainers/backups/` preserve historical evidence; their counts and commands are not current requirements. Translations can lag: use the linked English source and exact-base `package.json` when instructions differ.
 
+The [official Mintlify documentation site](https://lumsa-cd7531b1.mintlify.site/) is built from the root `docs.json` and these canonical Markdown sources. See the [Mintlify maintainer guide](maintainers/mintlify.md) for its Git, publishing, and MCP boundaries.
+
 ## Users
 
 - [`users/aas-core.md`](users/aas-core.md) — canonical AAS Core preview guide

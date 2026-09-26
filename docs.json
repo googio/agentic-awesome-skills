@@ -1,0 +1,88 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "luma",
+  "name": "Agentic Awesome Skills",
+  "description": "Official guides for AAS Core, the local skill catalog, integrations, and reviewed skill distribution.",
+  "logo": {
+    "light": "/assets/aas-logo.jpeg",
+    "dark": "/assets/aas-logo.jpeg",
+    "href": "https://github.com/sickn33/agentic-awesome-skills"
+  },
+  "favicon": "/apps/web-app/public/favicon.svg",
+  "colors": {
+    "primary": "#079ee8",
+    "light": "#38bdf8",
+    "dark": "#0284c7"
+  },
+  "social": {
+    "github": "https://github.com/sickn33/agentic-awesome-skills"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Use AAS",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "index",
+              "docs/users/getting-started",
+              "docs/users/aas-core"
+            ]
+          },
+          {
+            "group": "Core concepts",
+            "pages": [
+              "docs/users/skills-vs-mcp-tools",
+              "docs/users/discovery-manifest",
+              "docs/users/local-config",
+              "docs/users/faq"
+            ]
+          },
+          {
+            "group": "Use skills and plugins",
+            "pages": [
+              "docs/users/usage",
+              "docs/users/bundles",
+              "docs/users/workflows",
+              "docs/users/plugins",
+              "docs/users/security-and-antivirus",
+              "docs/users/visual-guide"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Supported tools",
+            "pages": [
+              "docs/users/claude-code-skills",
+              "docs/users/codex-cli-skills",
+              "docs/users/cursor-skills",
+              "docs/users/gemini-cli-skills",
+              "docs/users/kiro-integration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contribute",
+        "groups": [
+          {
+            "group": "Write and review skills",
+            "pages": [
+              "docs/contributors/skill-template",
+              "docs/contributors/skill-anatomy",
+              "docs/contributors/examples",
+              "docs/contributors/quality-bar",
+              "docs/contributors/security-guardrails",
+              "docs/contributors/community-guidelines"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
