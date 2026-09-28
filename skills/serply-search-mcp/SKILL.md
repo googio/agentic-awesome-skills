@@ -34,6 +34,7 @@ or configure servers automatically.
 The host must already have a remote MCP connection to `https://api.serply.io/mcp`
 using Streamable HTTP, with the user's API key in an `X-Api-Key` header. Keys are
 issued at [serply.io](https://serply.io); see the
+[Serply MCP setup page](https://serply.io/mcp) for client examples and the
 [authentication guide](https://serply.io/docs/guides/authentication). Client
 configuration formats differ. Obtain the user's approval before changing their
 agent configuration, and reference the key through the host's environment or
@@ -146,5 +147,6 @@ content; it does not execute downloaded content or change local files.
 ## Additional Resources
 
 - [Serply](https://serply.io)
+- [Serply MCP server](https://serply.io/mcp)
 - [Serply API documentation](https://serply.io/docs)
 - [Serply privacy policy](https://serply.io/privacy)
